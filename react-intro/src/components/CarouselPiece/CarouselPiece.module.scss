@@ -1,31 +1,4 @@
-.Skills{
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(-45deg, #EE7752, #a362e0, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-    animation: alter 10s ease-in-out infinite;
-    // display: grid;
-    // grid-template-columns: 1fr;
-}
-@keyframes alter {
-    0% {
-        background-position: 0 50%;
-    };
-    50% {
-        background-position: 100% 50%;
-    };
-    100% {
-        background-position: 0 50%;
-    }    
-}
 
-.headerBox{
-    height: 30vh;
-    width: 100vw;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 .CarouselImage {
     width: 900px;
     height: 54vh;

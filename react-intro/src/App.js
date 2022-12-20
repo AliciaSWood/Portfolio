@@ -7,6 +7,7 @@ import Skills from './containers/Skills/Skills';
 import Projects from './containers/Projects/Projects';
 import Contact from './containers/Contact/Contact';
 
+
 function App() {
   return (
     <div className="App">

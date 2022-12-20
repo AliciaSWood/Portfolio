@@ -1,51 +1,64 @@
-$deep-purple:rgb(146, 44, 146);
-$light-purple:rgb(212, 115, 212);
+$deep-purple: rgb(146, 44, 146);
+$light-purple: rgb(212, 115, 212);
+
+@keyframes myfading {
+  from {
+    opacity: 0;
+    transition: opacity;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .navbar {
-    box-shadow: 5px 5px $light-purple;
-    border-radius: 10px;
-    position: fixed;
-    width: 90vw;
-    overflow: hidden;
-    top: 0;
-    margin: 2vh 5vw 2vh 5vw;
-    background-color: rgba(245, 245, 245, 0.904);
-         
-    @media only screen and (max-width:600px) { 
-      margin:10px;  
-    }
+  box-shadow: 5px 5px $light-purple;
+  border-radius: 10px;
+  position: fixed;
+  width: 90vw;
+  overflow: hidden;
+  top: 0;
+  margin: 2vh 5vw 2vh 5vw;
+  background-color: rgba(245, 245, 245, 0.904);
 
-    }
-    
-    .navbar > ul {
-    list-style-type:none;
-    border: 3px solid $deep-purple;
-    border-radius: 10px;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-      padding:0px;
-      margin:0px;
-    }
-    
-    .navbar > ul > li > a {
-    text-decoration: none;
-    font-family: 'Libre Baskerville';
-    font-size: 20px;
-    font-weight: bold;
-    color:black;
-    display: inline-block;
+  transition: all 0.2s;
+  animation-name: myfading;
+  animation-duration: 0.8s;
 
-      &:hover {
-        color: $deep-purple;
-        text-shadow: 3px 3px 5px purple;
-        transition: 0.3s;
-        transform: scale(1.2);
-        cursor: pointer;
-      }
+  @media only screen and (max-width: 600px) {
+    margin: 10px;
+  }
+}
 
-    @media only screen and (max-width:600px) { 
-      font-size: 12px;  
-    }    
-    }
+.navbar > ul {
+  list-style-type: none;
+  border: 3px solid $deep-purple;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  font-family: "Libre Baskerville";
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+
+  &:hover {
+    color: $deep-purple;
+    text-shadow: 3px 3px 5px purple;
+    transition: 0.3s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+}
