@@ -1,52 +1,52 @@
-.Main{
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../../assets/forest.png");
-    background-size: cover;
+.Main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/forest.png");
+  background-size: cover;
 }
 @keyframes myfading {
-    from {
-      opacity: 0;
-      transition: opacity;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0;
+    transition: opacity;
   }
-
-.headerBox1{
-width: 100vw;
-height: 50vh;
-display: flex;
-justify-content: left;
-align-items: flex-end;
-transition: all 2s;
-animation-name: myfading;
-animation-duration: 4s;
+  to {
+    opacity: 1;
+  }
 }
 
-.header1{
-    margin: 0;
-    text-align: left;
-    font-size: 10vw;
-    margin-left: 5vw;
-    text-shadow: 3px 3px white;
-    color: rgb(40, 33, 33);
+.headerBox1 {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
 }
 
-.headerBox2{
-    width: 100vw;
-    display: flex;
-justify-content: left;
-transition: all 2s;
-animation-name: myfading;
-animation-duration: 4s;
+.header1 {
+  margin: 0;
+  text-align: left;
+  font-size: 10vw;
+  margin-left: 5vw;
+  text-shadow: 3px 3px white;
+  color: rgb(40, 33, 33);
+  transition: all 2s;
+  animation-name: myfading;
+  animation-duration: 4s;
 }
 
-.header2{
-    margin: 0;
-    text-align: left;
-    font-size: 3vw; 
-    margin-left: 5vw;
-    text-shadow: 3px 3px white;
+.headerBox2 {
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  transition: all 2s;
+  animation-name: myfading;
+  animation-duration: 4s;
+}
+
+.header2 {
+  margin: 0;
+  text-align: left;
+  font-size: 3vw;
+  margin-left: 5vw;
+  text-shadow: 3px 3px white;
 }
