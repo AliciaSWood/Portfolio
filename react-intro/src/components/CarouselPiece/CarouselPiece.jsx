@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from "./CarouselPiece.module.scss"
-import Slider from "react-slick";
+
 
 
 const CarouselPiece = () => {

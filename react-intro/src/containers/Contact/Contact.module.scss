@@ -4,3 +4,42 @@
     background-image: url("../../assets/leaves.png");
     background-size: cover;
 }
+
+.yellowbox{
+    width: 95vw;
+    height: 60vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.purplebox{
+    overflow: hidden;
+    width: 50vw;
+    height: 35vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.yellowflower {
+    margin-right: 3vw;
+    position: absolute;
+	animation: rotation 12s infinite linear;
+    transition: all 2s ease-in-out;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.purpleflower{
+    margin-left: 5vw;
+    animation: rotation 12s infinite linear;
+    transition: all 2s ease-in-out;
+}

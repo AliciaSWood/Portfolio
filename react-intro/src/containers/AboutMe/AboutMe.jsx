@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <Element name = "AboutMe">
         <div className = {styles.AboutMain}>
-            
+
         </div>
         </Element>
     );
