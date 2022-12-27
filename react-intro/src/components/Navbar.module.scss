@@ -1,15 +1,15 @@
 $deep-purple: rgb(146, 44, 146);
 $light-purple: rgb(212, 115, 212);
 
-@keyframes myfading {
-  from {
-    opacity: 0;
-    transition: opacity;
-  }
-  to {
-    opacity: 1;
-  }
-}
+// @keyframes myfading {
+//   from {
+//     opacity: 0;
+//     transition: opacity;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// }
 
 .navbar {
   box-shadow: 5px 5px $light-purple;
@@ -22,9 +22,9 @@ $light-purple: rgb(212, 115, 212);
   background-color: rgba(245, 245, 245, 0.904);
   z-index: 500;
 
-  transition: all 0.2s;
-  animation-name: myfading;
-  animation-duration: 0.8s;
+  // transition: all 0.2s;
+  // animation-name: myfading;
+  // animation-duration: 0.8s;
 
   @media only screen and (max-width: 600px) {
     margin: 10px;
@@ -45,7 +45,8 @@ $light-purple: rgb(212, 115, 212);
 
 .navbar > ul > li > a {
   text-decoration: none;
-  font-family: "Libre Baskerville";
+  // font-family: "Libre Baskerville";
+  font-family: 'Prosto One', cursive;
   font-size: 20px;
   font-weight: bold;
   color: black;

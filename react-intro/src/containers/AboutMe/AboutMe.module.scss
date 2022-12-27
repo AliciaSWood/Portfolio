@@ -4,3 +4,40 @@
     background-image: url("../../assets/watercolour.png");
     background-size: cover;
 }
+
+.profileBox {
+    width: 100vw;
+    height: 60vh;
+    // border: 2px solid black;
+    display: flex;
+    margin-left: 20vw;
+    margin-bottom: none;
+    align-items: flex-end;
+}
+
+.image {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 250px 250px;
+}
+
+.bio {
+    width: 40vw;
+    margin-left: 6vw;
+    margin-bottom: 10vh;
+}
+
+.clouds {
+    margin: none;
+    opacity: 0.4;
+    animation: animateCloud 35s linear infinite;
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}

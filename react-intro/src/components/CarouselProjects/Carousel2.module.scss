@@ -10,12 +10,13 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 3vw;
+    // margin-left: 3vw;
 
     &:hover {
         cursor: pointer;
         transition: 0.3s;
         transform: scale(1.05);
+        text-decoration: none;
     }
 }
 
@@ -25,6 +26,8 @@
     height: 6vh;
     margin-top: 20px;
     padding: none;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
     // border: 2px solid white;
 
 }
@@ -32,11 +35,15 @@
 .paraBox {
     width: 40vw;
     text-align: center;
-    height: 10vh;
-    border: 2px solid pink;
-    background-color: rgb(125, 125, 213);
+    height: 14vh;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgb(140, 140, 213);
     border-radius: 10px 10px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 17px;
 }
 
   .SliderHolder {
@@ -45,4 +52,10 @@
     align-items: center;
     width: 95vw;
     justify-content: center;
+  }
+
+  a {
+    &:hover{
+        text-decoration: none;
+    }
   }
