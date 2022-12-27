@@ -20,6 +20,7 @@ $light-purple: rgb(212, 115, 212);
   top: 0;
   margin: 2vh 5vw 2vh 5vw;
   background-color: rgba(245, 245, 245, 0.904);
+  z-index: 500;
 
   transition: all 0.2s;
   animation-name: myfading;
