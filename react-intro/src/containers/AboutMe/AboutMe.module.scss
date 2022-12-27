@@ -24,18 +24,24 @@
 .bio {
     width: 40vw;
     margin-left: 6vw;
-    margin-bottom: 10vh;
+    margin-bottom: 2vh;
+    font-size: 30px;
+}
+
+.cloudBox{
+    width: 100vw;
 }
 
 .clouds {
-    margin: none;
+    // margin: none;
     opacity: 0.4;
     animation: animateCloud 35s linear infinite;
+    overflow: hidden;
 }
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -160vw;
     }
     100% {
         margin-left: 100%;

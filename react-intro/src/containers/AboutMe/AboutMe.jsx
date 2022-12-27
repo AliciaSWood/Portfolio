@@ -12,7 +12,9 @@ const AboutMe = () => {
         <p>I'm Alicia Wood, a junior software developer from Adelaide. My passion for tech and coding comes partially from my love of puzzles, as I've always enjoyed the challenge of solving larger problems by tackling them one piece at a time. <br></br>Another part of my passion for tech comes from its limitless capacity for new and brilliant things. We've made such incredible advancements in technology and it's thrilling to be a part of that, even if it is as just a small piece of a larger puzzle.</p>
         </div>
         </div>
+        <div className = {styles.cloudBox}>
         <img className = {styles.clouds} src = {require("../../assets/clouds.png")}></img>
+        </div>
         </div>
         </Element>
     );
