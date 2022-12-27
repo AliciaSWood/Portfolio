@@ -1,0 +1,48 @@
+.images {
+    width: 40vw;
+    height: 20vw;
+    margin-bottom: 20px;
+}
+
+.slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 3vw;
+
+    &:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
+}
+
+.headerBox {
+    width: 40vw;
+    text-align: center;
+    height: 6vh;
+    margin-top: 20px;
+    padding: none;
+    // border: 2px solid white;
+
+}
+
+.paraBox {
+    width: 40vw;
+    text-align: center;
+    height: 10vh;
+    border: 2px solid pink;
+    background-color: rgb(125, 125, 213);
+    border-radius: 10px 10px;
+    margin-bottom: 20px;
+}
+
+  .SliderHolder {
+    // border: 2px solid white;
+    margin-left: 2.25vw;
+    align-items: center;
+    width: 95vw;
+    justify-content: center;
+  }

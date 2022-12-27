@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import Carousel2 from "../../components/CarouselProjects/Carousel2";
 import styles from "./Projects.module.scss";
 
 const Projects = () => {
@@ -18,6 +19,7 @@ const Projects = () => {
             <span className={styles.waviySpan}>S</span>
           </div>
         </div>
+        <Carousel2></Carousel2>
       </div>
     </Element>
   );
