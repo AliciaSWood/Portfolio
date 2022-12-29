@@ -1,7 +1,8 @@
 .Skills{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, #EE7752, #a362e0, #23A6D5, #23D5AB);
+    // background: linear-gradient( #EE7752, #a362e0, #23A6D5, #23D5AB);
+    background: linear-gradient( #d2dbe6, #23A6D5, #23D5AB);
     background-size: 400% 400%;
     animation: alter 10s ease-in-out infinite;
     // display: grid;
@@ -9,13 +10,13 @@
 }
 @keyframes alter {
     0% {
-        background-position: 0 50%;
+        background-position: 50% 0%;
     };
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 100%;
     };
     100% {
-        background-position: 0 50%;
+        background-position: 50 0%;
     }    
 }
 
@@ -27,42 +28,13 @@
     justify-content: center;
     margin-bottom: 10vh;
 }
-// .CarouselImage {
-//     width: 900px;
-//     height: 54vh;
-//     margin-left: 22px;
-  
-//     @media only screen and (max-width: 1300px) {
-//       width: 600px;
-//     }
-//     @media only screen and (max-width: 1100px) {
-//       width: 500px;
-//     }
-//     @media only screen and (max-width: 850px) {
-//       width: 500px;
-//       height: 35vh;
-//     }
-//     @media only screen and (max-width: 414px) {
-//       width: 100vw;
-//       margin-left: 0;
-//     }
-  
-//   }
-//   .Carousel {
-//     width: 50vw;
-//     overflow: hidden;
-  
-//     @media only screen and (max-width: 850px) {
-//       width: 55vw;
-//     }
-//     @media only screen and (max-width: 1100px) {
-//     }
-//     @media only screen and (max-width: 414px) {
-//       width: 100vw;
-//     }
-//   }
-  
-//   .Caption {
-//     text-shadow: 2px 2px 8px black;
-//   }
 
+.header{
+    @media only screen and (max-width: 414px) {
+        font-size: 18px;
+      }
+      @media only screen and (min-width: (415px)) and (max-width: 820px) {
+        font-size: 30px;
+      }
+}
+// #EE7752,

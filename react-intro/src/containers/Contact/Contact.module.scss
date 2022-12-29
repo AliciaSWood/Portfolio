@@ -3,10 +3,12 @@
     height: 100vh;
     background-image: url("../../assets/leaves.png");
     background-size: cover;
+    display: flex;
+    flex-direction: row;
 }
 
 .yellowbox{
-    width: 95vw;
+    width: 25vw;
     height: 60vh;
     display:flex;
     justify-content: flex-end;
@@ -15,17 +17,17 @@
 }
 .purplebox{
     overflow: hidden;
-    width: 50vw;
-    height: 35vh;
+    width: 25vw;
+    height: 90vh;
     display:flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
 .yellowflower {
-    margin-right: 3vw;
+    width: 23vw;
     position: absolute;
-	animation: rotation 12s infinite linear;
+	animation: rotation 25s infinite linear;
     transition: all 2s ease-in-out;
 }
 
@@ -42,4 +44,12 @@
     margin-left: 5vw;
     animation: rotation 12s infinite linear;
     transition: all 2s ease-in-out;
+}
+.FormBox {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

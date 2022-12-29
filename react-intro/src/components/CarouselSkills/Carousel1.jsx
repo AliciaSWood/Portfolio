@@ -14,10 +14,25 @@ const Carousel1 = () => {
         // cssEase: "linear",
         slidesToShow: 5,
         slidesToScroll: 1,
-        pauseOnHover: false
+        pauseOnHover: false,
+        responsive: [
+            {
+              breakpoint: 820,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+                breakpoint: 1870,
+                settings: {
+                    slidesToShow: 4
+                }
+            }
+      
+          ],
     };
     return (
-        <div>
+        <div className={styles.SliderHolder}>
             <Slider {...settings}>
             <div>
             <img className = {styles.icon} src = {require("../../assets/firestore.png")}></img>

@@ -1,7 +1,7 @@
 .Projects{
     height: 100vh;
     width: 100vw;
-    background-color: lightseagreen;
+    background-color: #23D5AB;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
@@ -36,4 +36,9 @@
   align-items: flex-end;
   justify-content: center;
   letter-spacing: 5px;
+
+  @media (max-width: 414px) {
+    height: 18vh;
+    font-size: 50px;
+  }
 }

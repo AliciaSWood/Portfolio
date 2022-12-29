@@ -1,13 +1,13 @@
 .AboutMain{
     width: 100vw;
     height: 100vh;
-    background-image: url("../../assets/watercolour.png");
+    background-image: url("../../assets/cloudspace.png");
     background-size: cover;
 }
 
 .profileBox {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     // border: 2px solid black;
     display: flex;
     margin-left: 20vw;
@@ -19,6 +19,7 @@
     width: 20vw;
     height: 20vw;
     border-radius: 250px 250px;
+    z-index: 1000;
 }
 
 .bio {
@@ -26,6 +27,7 @@
     margin-left: 6vw;
     margin-bottom: 2vh;
     font-size: 30px;
+    color: black;
 }
 
 .cloudBox{

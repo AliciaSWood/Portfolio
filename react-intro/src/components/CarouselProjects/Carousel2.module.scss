@@ -28,7 +28,9 @@
     padding: none;
     font-family: 'Alfa Slab One', cursive;
     color: black;
-    // border: 2px solid white;
+    @media (max-width: 414px) {
+        font-size: 18px;
+      }
 
 }
 
@@ -44,6 +46,12 @@
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 17px;
+
+    @media (max-width: 414px) {
+        font-size: 12px;
+        width: 60vw;
+        height: 30vh;
+      }
 }
 
   .SliderHolder {
