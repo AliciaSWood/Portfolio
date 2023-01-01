@@ -1,88 +1,85 @@
 .images {
-    width: 40vw;
-    height: 20vw;
-    margin-bottom: 20px;
+  width: 40vw;
+  height: 20vw;
+  margin-bottom: 20px;
 }
 
 .slides {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    // margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 
-    &:hover {
-        cursor: pointer;
-        transition: 0.3s;
-        transform: scale(1.05);
-        text-decoration: none;
-    }
+  &:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    text-decoration: none;
+  }
 }
 
 .headerBox {
-    width: 40vw;
-    text-align: center;
-    height: 6vh;
-    margin-top: 20px;
-    padding: none;
-    font-family: 'Alfa Slab One', cursive;
-    color: white;
-    @media (max-width: 414px) {
-        font-size: 18px;
-      }
-
+  width: 40vw;
+  text-align: center;
+  height: 6vh;
+  margin-top: 20px;
+  padding: none;
+  font-family: "Alfa Slab One", cursive;
+  color: white;
+  @media (max-width: 414px) {
+    font-size: 18px;
+  }
 }
 
 .paraBox {
-    width: 40vw;
-    text-align: center;
-    height: 14vh;
-    padding: 10px;
-    border: 2px solid white;
-    background-color: rgb(140, 140, 213);
-    border-radius: 10px 10px;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-size: 17px;
+  width: 40vw;
+  text-align: center;
+  height: 14vh;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: rgb(140, 140, 213);
+  border-radius: 10px 10px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 17px;
 
-    @media (max-width: 514px) {
-        font-size: 12px;
-        width: 60vw;
-        height: 40vh;
-      }
+  @media (max-width: 514px) {
+    font-size: 12px;
+    width: 60vw;
+    height: 40vh;
+  }
 
-      @media only screen and (min-width: (415px)) and (max-width: 820px) {
-font-size: 16px;
-width: 60vw;
-height: 40vh;
-      }
-      @media only screen and (min-width: 821px) and (max-width: 1100px) {
-        height: 350px;
-      }
+  @media only screen and (min-width: (415px)) and (max-width: 820px) {
+    font-size: 16px;
+    width: 60vw;
+    height: 40vh;
+  }
+  @media only screen and (min-width: 821px) and (max-width: 1100px) {
+    height: 350px;
+  }
 
-      @media screen and (min-width: 1101px) and (max-width: 2000px) {
-        height: 270px;
-      }
+  @media screen and (min-width: 1101px) and (max-width: 2000px) {
+    height: 270px;
+  }
 }
 
-  .SliderHolder {
-    // border: 2px solid white;
-    margin-left: 2.25vw;
-    align-items: center;
-    width: 95vw;
-    justify-content: center;
+.SliderHolder {
+  margin-left: 2.25vw;
+  align-items: center;
+  width: 95vw;
+  justify-content: center;
 
-    @media (max-width: 414px) {
-      margin: 0px;
-      width: 90vw;
-      margin-left: 4vw;
-          }
+  @media (max-width: 414px) {
+    margin: 0px;
+    width: 90vw;
+    margin-left: 4vw;
   }
+}
 
-  a {
-    &:hover{
-        text-decoration: none;
-    }
+a {
+  &:hover {
+    text-decoration: none;
   }
+}

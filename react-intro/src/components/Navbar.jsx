@@ -13,22 +13,46 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-          <Link to="AboutMe" spy={true} smooth={true} offset={0} duration={500}>
+            <Link
+              to="AboutMe"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               About
             </Link>
           </li>
           <li>
-          <Link to="Skills" spy={true} smooth={true} offset={0} duration={500}>
+            <Link
+              to="Skills"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Skills
             </Link>
           </li>
           <li>
-          <Link to="Projects" spy={true} smooth={true} offset={0} duration={500}>
+            <Link
+              to="Projects"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Projects
             </Link>
           </li>
           <li>
-          <Link to="Contact" spy={true} smooth={true} offset={0} duration={500}>
+            <Link
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
               Contact
             </Link>
           </li>
@@ -39,3 +63,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// installed: npm install react-sticky-box

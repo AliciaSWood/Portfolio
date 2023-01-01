@@ -2,37 +2,34 @@ $offset: 80px !default;
 $blur-radius: 60px !default;
 $spread-radius: 16px !default;
 
-.Projects{
-    height: 100vh;
-    width: 100vw;
-    // background-color: #23D5AB;
-    // background-image: url("../../assets/foreststream.png");
-    // background-size: cover;
-    background: linear-gradient(#0c2707, #309721, #6b9ee0, rgb(188, 206, 229));
-    // box-shadow: inset 0 $offset $blur-radius (-$spread-radius) black;
+.Projects {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#0c2707, #309721, #6b9ee0, rgb(188, 206, 229));
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
 .waviy {
   position: relative;
-  -webkit-box-reflect: below -55px linear-gradient(transparent, rgba(0,0,0,.2));
+  -webkit-box-reflect: below -55px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
 }
 .waviySpan {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   position: relative;
   display: inline-block;
   color: #fff;
   animation: waviy 2s infinite;
-  animation-delay: calc(.1s * var(--i));
-  
+  animation-delay: calc(0.1s * var(--i));
 }
 @keyframes waviy {
-  0%,40%,100% {
-    transform: translateY(0)
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
   }
   20% {
-    transform: translateY(-20px)
+    transform: translateY(-20px);
   }
 }
 
@@ -40,7 +37,7 @@ $spread-radius: 16px !default;
   font-size: 6em;
   width: 100vw;
   height: 24vh;
-  display:flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
   letter-spacing: 5px;
@@ -50,6 +47,6 @@ $spread-radius: 16px !default;
     font-size: 50px;
   }
   @media only screen and (min-width: 486px) and (max-width: 620px) {
-    font-size: 60px
+    font-size: 60px;
   }
 }

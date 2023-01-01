@@ -8,7 +8,6 @@ const Carousel2 = () => {
   const settings = {
     arrows: true,
     dots: true,
-    // className: "center",
     centerMode: true,
     centrePadding: "2vw",
     infinite: true,
@@ -27,10 +26,9 @@ const Carousel2 = () => {
       {
         breakpoint: 1870,
         settings: {
-            slidesToShow: 2
-        }
-    },
-
+          slidesToShow: 2,
+        },
+      },
     ],
   };
   return (
@@ -98,22 +96,22 @@ const Carousel2 = () => {
           </div>
         </a>
         <a>
-        <div className={styles.slides}>
-          <h2 className={styles.headerBox}>Fake OS</h2>
-          <img
-            className={styles.images}
-            src={require("../../assets/fakeOSSnip.png")}
-          ></img>
-          <div className={styles.paraBox}>
-            <p>
-              A fake OS, which has been made in the style of Windows XP! This
-              nostalgic OS brings back memories of an embarassing amount of
-              hours spent playing The Sims 2, while listening to the
-              visually-hypnotic music displayed on Windows Media Player. This
-              project was built using <b>HTML, Sass</b> and <b>JavaScript.</b>
-            </p>
+          <div className={styles.slides}>
+            <h2 className={styles.headerBox}>Fake OS</h2>
+            <img
+              className={styles.images}
+              src={require("../../assets/fakeOSSnip.png")}
+            ></img>
+            <div className={styles.paraBox}>
+              <p>
+                A fake OS, which has been made in the style of Windows XP! This
+                nostalgic OS brings back memories of an embarassing amount of
+                hours spent playing The Sims 2, while listening to the
+                visually-hypnotic music displayed on Windows Media Player. This
+                project was built using <b>HTML, Sass</b> and <b>JavaScript.</b>
+              </p>
+            </div>
           </div>
-        </div>
         </a>
       </Slider>
     </div>

@@ -10,7 +10,7 @@ $light-purple: rgb(212, 115, 212);
   margin: 2vh 5vw 2vh 5vw;
   background-color: white;
   z-index: 1001;
-  color:black;
+  color: black;
   opacity: 0.7;
 
   &:hover {
@@ -37,8 +37,7 @@ $light-purple: rgb(212, 115, 212);
 
 .navbar > ul > li > a {
   text-decoration: underline;
-  // font-family: "Libre Baskerville";
-  font-family: 'Prosto One', cursive;
+  font-family: "Prosto One", cursive;
   font-size: 20px;
   font-weight: bold;
   color: black;
@@ -46,7 +45,6 @@ $light-purple: rgb(212, 115, 212);
 
   &:hover {
     color: $deep-purple;
-    // text-shadow: 3px 3px 5px purple;
     transition: 0.3s;
     transform: scale(1.2);
     cursor: pointer;
