@@ -1,6 +1,5 @@
 import React from "react";
 import { Element } from "react-scroll";
-import CarouselPiece from "../../components/CarouselSkills/CarouselPiece";
 import Carousel1 from "../../components/CarouselSkills/Carousel1";
 
 import styles from "./Skills.module.scss";

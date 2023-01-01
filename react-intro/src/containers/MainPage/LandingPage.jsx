@@ -24,9 +24,9 @@ const LandingPage = () => {
     </div>
     </div>
     <div className = {styles.SmallWaveHeader}>
-        <h3>Junior Software Dev<br></br></h3>
+        <h3 className = {styles.DevText}>Junior Software Developer<br></br></h3>
     </div>
-    <h3 className = {styles.Quote}>"Do I dare disturb the universe?"<br></br> &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- T.S. Eliot</h3>
+    <h3 className = {styles.Quote}>"Do I dare disturb the universe?"<br></br> &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className = {styles.AuthorName}>- T.S. Eliot</span></h3>
     </div>
 
         </div>

@@ -1,7 +1,15 @@
+$offset: 80px !default;
+$blur-radius: 60px !default;
+$spread-radius: 16px !default;
+
 .Projects{
     height: 100vh;
     width: 100vw;
-    background-color: #23D5AB;
+    // background-color: #23D5AB;
+    // background-image: url("../../assets/foreststream.png");
+    // background-size: cover;
+    background: linear-gradient(#309721, #6b9ee0, rgb(188, 206, 229));
+    box-shadow: inset 0 $offset $blur-radius (-$spread-radius) black;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');

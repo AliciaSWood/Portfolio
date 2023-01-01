@@ -1,12 +1,18 @@
+$offset: 80px !default;
+$blur-radius: 60px !default;
+$spread-radius: 16px !default;
+
 .Skills{
     height: 100vh;
     width: 100vw;
-    // background: linear-gradient( #EE7752, #a362e0, #23A6D5, #23D5AB);
-    background: linear-gradient( #d2dbe6, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-    animation: alter 10s ease-in-out infinite;
-    // display: grid;
-    // grid-template-columns: 1fr;
+    // background: linear-gradient( #d2dbe6, #23A6D5, #317bdc);
+    // background-size: 400% 400%;
+    // animation: alter 10s ease-in-out infinite;
+    background-image: url("../../assets/forestsky.png");
+    background-size: cover;
+    // box-shadow:  inset 0px 60px 50px 20px rgb(226, 230, 235);
+    box-shadow: inset 0 $offset $blur-radius (-$spread-radius) rgb(226, 230, 235);
+    // box-shadow: inset 0 (-$offset) $blur-radius (-$spread-radius) black;
 }
 @keyframes alter {
     0% {
@@ -21,15 +27,23 @@
 }
 
 .headerBox{
-    height: 30vh;
+    height: 20vh;
     width: 100vw;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 10vh;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 15vh;
 }
 
 .header{
+
+    border: 6px double #EE7752;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     @media only screen and (max-width: 414px) {
         font-size: 18px;
       }

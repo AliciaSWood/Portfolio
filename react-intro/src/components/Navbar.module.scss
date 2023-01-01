@@ -1,4 +1,4 @@
-$deep-purple: rgb(146, 44, 146);
+$deep-purple: #9e41e6;
 $light-purple: rgb(212, 115, 212);
 
 // @keyframes myfading {
@@ -12,15 +12,22 @@ $light-purple: rgb(212, 115, 212);
 // }
 
 .navbar {
-  box-shadow: 5px 5px $light-purple;
+  // box-shadow: 5px 5px $light-purple;
   border-radius: 10px;
   position: fixed;
   width: 90vw;
   overflow: hidden;
   top: 0;
   margin: 2vh 5vw 2vh 5vw;
-  background-color: rgba(245, 245, 245, 0.904);
-  z-index: 500;
+  background-color: white;
+  z-index: 1001;
+  color:black;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+    transition: 1s;
+  }
 
   // transition: all 0.2s;
   // animation-name: myfading;
@@ -44,7 +51,7 @@ $light-purple: rgb(212, 115, 212);
 }
 
 .navbar > ul > li > a {
-  text-decoration: none;
+  text-decoration: underline;
   // font-family: "Libre Baskerville";
   font-family: 'Prosto One', cursive;
   font-size: 20px;
@@ -54,7 +61,7 @@ $light-purple: rgb(212, 115, 212);
 
   &:hover {
     color: $deep-purple;
-    text-shadow: 3px 3px 5px purple;
+    // text-shadow: 3px 3px 5px purple;
     transition: 0.3s;
     transform: scale(1.2);
     cursor: pointer;

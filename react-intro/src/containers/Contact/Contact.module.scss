@@ -1,8 +1,11 @@
 .Contact{
     width: 100vw;
     height: 100vh;
-    background-image: url("../../assets/leaves.png");
-    background-size: cover;
+    // background-image: url("../../assets/leaves.png");
+        background: linear-gradient(rgb(188, 206, 229), #23A6D5, #317bdc, rgb(246, 190, 130) );
+    background-size: 400% 400%;
+    animation: alter 10s ease-in-out infinite;
+    // background-size: cover;
     display: flex;
     flex-direction: row;
 }
@@ -13,6 +16,11 @@
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
+    transition: 2s;
+    &:hover{
+        transform: scale(1.5);
+        height: 70vh;
+    }
     
 }
 .purplebox{
@@ -22,6 +30,11 @@
     display:flex;
     justify-content: flex-start;
     align-items: flex-end;
+    transition: 2s;
+    &:hover{
+        height: 60vh;
+        transform: scale(1.5);
+    }
 }
 
 .yellowflower {
@@ -29,6 +42,10 @@
     position: absolute;
 	animation: rotation 25s infinite linear;
     transition: all 2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.5);
+    }
 }
 
 @keyframes rotation {
@@ -52,4 +69,81 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.MainForm {
+    text-align: left;
+    border: 4px solid rgb(43, 42, 42);
+    // border-radius: 10px 10px;
+    box-shadow: 10px 10px 5px rgb(73, 72, 72);
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+.InputBox {
+    background-color: rgb(234, 231, 231);
+    box-shadow: 2px 2px rgb(117, 116, 116);
+    border-radius: 10px 10px;
+    padding: 10px;
+    border: none;
+    height: 35px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.Labels {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.SubmitButton {
+    margin: 8px;
+    padding: 0.5em 1em;
+    background-color: rgb(94, 231, 94);
+    border-radius: 10px 10px;
+    transition: 0.3s;
+
+    &:hover{
+        box-shadow: 0px 8px 6px rgb(144, 217, 144);
+  transform: translateY(-0.25em);
+    }
+    &:active {
+        background-color: #07b00d;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+}
+
+.ClearButton {
+        padding: 0.5em 1em;
+    background-color: yellow;
+    border-radius: 10px 10px;
+    transition: 0.3s;
+
+    &:hover{
+        box-shadow: 0px 8px 6px rgb(238, 238, 128);
+  transform: translateY(-0.25em);
+    }
+    &:active {
+        background-color: #dae905;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+}
+
+@keyframes alter {
+    0% {
+        background-position: 50% 0%;
+    };
+    50% {
+        background-position: 50% 100%;
+    };
+    100% {
+        background-position: 50 0%;
+    }    
 }
