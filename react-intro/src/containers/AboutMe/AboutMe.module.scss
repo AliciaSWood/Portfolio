@@ -1,58 +1,88 @@
-$offset: 40px !default;
+$offset: 60px !default;
 $blur-radius: 40px !default;
 $spread-radius: 16px !default;
 
-.AboutMain{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../../assets/cloudspace.png");
-    background-size: cover;
-    box-shadow: inset 0 (-$offset) $blur-radius (-$spread-radius) rgb(226, 230, 235);
+.AboutMain {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/cloudspace.png");
+  background-size: cover;
+  box-shadow: inset 0 (-$offset) $blur-radius (-$spread-radius)
+    rgb(226, 230, 235);
 }
 
 .profileBox {
-    width: 100vw;
-    height: 70vh;
-    // border: 2px solid black;
-    display: flex;
-    margin-left: 20vw;
-    margin-bottom: none;
-    align-items: flex-end;
+  padding-top: 30vh;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  margin-left: 20vw;
+  margin-bottom: none;
+  align-items: flex-end;
+  @media (max-width: 580px) {
+    flex-direction: column;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (min-width: (581px)) and (max-width: 920px) {
+    flex-direction: column;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (min-width: (921px)) and (max-width: 1600px) {
+    margin-left: 5vw;
+    height: 75vh;
+  }
 }
 
 .image {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 250px 250px;
-    z-index: 1000;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px 250px;
+  z-index: 1000;
+  @media (max-width: 580px) {
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: 10px;
+  }
+  @media only screen and (min-width: (581px)) and (max-width: 920px) {
+    width: 50vw;
+    height: 50vw;
+    margin-bottom: 10px;
+  }
+  @media only screen and (min-width: (921px)) and (max-width: 1100px) {
+    width: 40vw;
+    height: 40vw;
+  }
 }
 
 .bio {
-    width: 40vw;
-    margin-left: 6vw;
-    margin-bottom: 2vh;
-    font-size: 30px;
-    color: black;
-    font-family: 'ABeeZee', sans-serif;
-}
+  width: 40vw;
+  margin-left: 6vw;
+  margin-bottom: 2vh;
+  font-size: 30px;
+  color: black;
+  font-family: "ABeeZee", sans-serif;
 
-.cloudBox{
+  @media (max-width: 580px) {
+    font-size: 16px;
+    margin-left: 0px;
     width: 100vw;
+    padding: 10px;
+  }
+  @media only screen and (min-width: (581px)) and (max-width: 920px) {
+    font-size: 20px;
+    margin-left: 0px;
+    width: 100vw;
+    padding: 10px;
+  }
+  @media only screen and (min-width: (921px)) and (max-width: 1760px) {
+    font-size: 22px;
+    margin-left: 5vw;
+    width: 40vw;
+    padding: 10px;
+    padding-top: 20vw;
+  }
 }
-
-.clouds {
-    // margin: none;
-    opacity: 0.4;
-    animation: animateCloud 35s linear infinite;
-    overflow: hidden;
-}
-
-@keyframes animateCloud {
-    0% {
-        margin-left: -160vw;
-    }
-    100% {
-        margin-left: 100%;
-    }
-}
-

@@ -24,6 +24,12 @@ const Carousel2 = () => {
           slidesToShow: 1,
         },
       },
+      {
+        breakpoint: 1870,
+        settings: {
+            slidesToShow: 2
+        }
+    },
 
     ],
   };

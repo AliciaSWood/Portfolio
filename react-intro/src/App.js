@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Main from './containers/MainPage/Main';
 import AboutMe from './containers/AboutMe/AboutMe';
 import Navbar from './components/Navbar';
 import Skills from './containers/Skills/Skills';
@@ -13,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-          {/* <Main></Main> */}
           <LandingPage></LandingPage>
           <AboutMe></AboutMe>
           <Skills></Skills>

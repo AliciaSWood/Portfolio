@@ -8,8 +8,8 @@ $spread-radius: 16px !default;
     // background-color: #23D5AB;
     // background-image: url("../../assets/foreststream.png");
     // background-size: cover;
-    background: linear-gradient(#309721, #6b9ee0, rgb(188, 206, 229));
-    box-shadow: inset 0 $offset $blur-radius (-$spread-radius) black;
+    background: linear-gradient(#0c2707, #309721, #6b9ee0, rgb(188, 206, 229));
+    // box-shadow: inset 0 $offset $blur-radius (-$spread-radius) black;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
@@ -45,8 +45,11 @@ $spread-radius: 16px !default;
   justify-content: center;
   letter-spacing: 5px;
 
-  @media (max-width: 414px) {
-    height: 18vh;
+  @media (max-width: 485px) {
+    height: 25vh;
     font-size: 50px;
+  }
+  @media only screen and (min-width: 486px) and (max-width: 620px) {
+    font-size: 60px
   }
 }

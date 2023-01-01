@@ -1,18 +1,7 @@
 $deep-purple: #9e41e6;
 $light-purple: rgb(212, 115, 212);
 
-// @keyframes myfading {
-//   from {
-//     opacity: 0;
-//     transition: opacity;
-//   }
-//   to {
-//     opacity: 1;
-//   }
-// }
-
 .navbar {
-  // box-shadow: 5px 5px $light-purple;
   border-radius: 10px;
   position: fixed;
   width: 90vw;
@@ -29,12 +18,8 @@ $light-purple: rgb(212, 115, 212);
     transition: 1s;
   }
 
-  // transition: all 0.2s;
-  // animation-name: myfading;
-  // animation-duration: 0.8s;
-
   @media only screen and (max-width: 600px) {
-    margin: 10px;
+    margin: 10px 10px px;
   }
 }
 

@@ -21,6 +21,10 @@
         transform: scale(1.5);
         height: 70vh;
     }
+
+    @media (max-width: 844px) {
+        visibility: hidden;
+            }
     
 }
 .purplebox{
@@ -35,6 +39,10 @@
         height: 60vh;
         transform: scale(1.5);
     }
+    
+    @media (max-width: 844px) {
+        visibility: hidden;
+            }
 }
 
 .yellowflower {
@@ -79,6 +87,9 @@
     margin: 50px;
     padding: 20px;
     background-color: white;
+    @media (max-width: 414px) {
+        margin:15px;
+            }
 }
 
 .InputBox {
@@ -90,15 +101,25 @@
     height: 35px;
     margin-bottom: 10px;
     color: black;
+
+    @media (max-width: 414px) {
+        font-size: 12px;
+            }
 }
 
 .Labels {
     font-size: 20px;
     font-family: 'ABeeZee', sans-serif;
+    @media (max-width: 414px) {
+        font-size: 12px;
+            }
 }
 
 h1, h2 {
     font-family: 'ABeeZee', sans-serif;
+    @media (max-width: 414px) {
+        font-size: 15px;
+            }
 }
 
 .SubmitButton {

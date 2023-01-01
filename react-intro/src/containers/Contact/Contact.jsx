@@ -8,7 +8,7 @@ const Contact = () => {
         <div className = {styles.Contact}>
 
             <div className = {styles.yellowbox}>
-            <img id = "axis" className = {styles.yellowflower} src = {require("../../assets/yellowflower.png")}></img>
+            <img className = {styles.yellowflower} src = {require("../../assets/yellowflower.png")}></img>
             </div>
             <div className = {styles.FormBox}>
                 <h1>Please fill out the form below...</h1>
@@ -34,7 +34,7 @@ const Contact = () => {
             <textarea cols ="45" rows="2" className = {styles.InputBox} placeholder="Type your message..." required></textarea>
         </fieldset>
         <button className = {styles.SubmitButton} type = "submit" >Submit</button>
-        <button className = {styles.ClearButton} input type="reset">Clear</button>
+        <button className = {styles.ClearButton} type="reset">Clear</button>
         </form>
         <h2>... Or visit me at <a href = "https://www.linkedin.com/in/alicia-wood-a536a41b5/" target="_blank">LinkedIn</a> or <a href = "https://github.com/AliciaSWood" target = "_blank">GitHub</a></h2>
         </div>
