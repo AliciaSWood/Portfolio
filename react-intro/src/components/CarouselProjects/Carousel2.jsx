@@ -95,7 +95,7 @@ const Carousel2 = () => {
             </div>
           </div>
         </a>
-        <a>
+        <a href = "https://github.com/AliciaSWood/fake-os" target = "_blank">
           <div className={styles.slides}>
             <h2 className={styles.headerBox}>Fake OS</h2>
             <img
@@ -113,6 +113,18 @@ const Carousel2 = () => {
             </div>
           </div>
         </a>
+        <a href = "https://github.com/AliciaSWood/Minesweeper" target = "_blank" ><div className={styles.slides}>
+            <h2 className={styles.headerBox}>Minesweeper</h2>
+            <img
+              className={styles.images}
+              src={require("../../assets/minesweeper.png")}
+            ></img>
+            <div className={styles.paraBox}>
+              <p>
+                A simple Minesweeper game, built in <b>Java</b> and to be played in the console. This was my first real experience working solo on a Java project which came with plenty of new challenges as I established the rules and created the layout of the game .  
+              </p>
+            </div>
+          </div></a>
       </Slider>
     </div>
   );
