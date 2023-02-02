@@ -39,6 +39,11 @@ $spread-radius: 16px !default;
   @media (max-width: 1090px) {
     height: 40vh;
   }
+  @media (max-height: 1000px) {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    height: 25vh;
+  }
 }
 
 .header {
@@ -53,5 +58,6 @@ $spread-radius: 16px !default;
   @media only screen and (min-width: (415px)) and (max-width: 1090px) {
     font-size: 30px;
     background-color: white;
-  }
+
+}
 }

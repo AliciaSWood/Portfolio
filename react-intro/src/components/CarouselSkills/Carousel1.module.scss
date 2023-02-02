@@ -18,6 +18,12 @@
     height: 250px;
     margin-bottom: 10px;
   }
+
+  @media (max-height: 768px) {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+  }
 }
 
 .SliderHolder {
@@ -32,5 +38,4 @@
   }
 }
 
-@media (min-width: 415px) and (max-width: 1000px) {
-}
+
